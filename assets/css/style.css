@@ -1,64 +1,3 @@
-/**
-*
-* Author: Limpid Themes
-* Last Modified: 09-06-2015
-* Description: Stylesheet used by CRUISE template
-*
-**/
-
-/*********************************************************
-	TABLE OF CONTENTS
-	1. GENERAL STYLES
-	2. PRELOADER 
-	3. SUPERSIZED SLIDER
-	4. NAVIGATION TRANSPARENT MENU 
-	5. LIGHT MENU 
-	6. HOMEPAGE SEARCH BOX
-	7. HOMEPAGE (INDEX-1, INDEX-2, INDEX-3, INDEX-4 ETC.) 
-	8. HOTEL.HTML
-	9. FLIGHT.HTML
-	10. HOLIDAY.HTML
-	11. CAR.HTML
-	12. CRUISE.HTML
-	13. HOTEL-GRID.HTML
-	14. HOTEL-LIST.HTML & HOTEL-LIST-2.html
-	15. FLIGHT.LIST.HTML
-	16. HOTEL-LIST-2.HTML
-	17. HOLIDAYS-GRID.HTML
-	18. HOLIDAYS-GRID-2.HTML
-	19. CRUISE-LIST.HTML
-	20. HOTEL-DETAILED.HTML
-	21. HOTEL-DETAILED-2.HTML
-	22. HOLIDAY-DETAIL.HTML
-	23. FLIGHT-BOOKING.HTML
-	24. HOTEL-BOOKING.HTML
-	25. HOTEL-BOOKING-2.HTML
-	26. THANK-YOU.HTML
-	27. BLOG
-	28. SINGLE BLOG
-	29. CONTACT-US.HTML
-	30. ABOUT-US.HTML
-	31. USER-PROFILE.HTML
-	32. COMING-SOON.HTML
-	33. 404.HTML
-	34. LOADING.HTML
-	35. HOTEL-INDEX.HTML
-	36. HOTEL-INDEX-2.HTML
-	37. HOLIDAY-INDEX.HTML
-	38. HOLIDAY-INDEX-2.HTML
-	39. CAR-INDEX.HTML
-	40. CAR-LIST.HTML
-	41. CAR-DETAILED.HTML
-	42. CAR-DETAILED-2.HTML
-	43. MAIN FOOTER
-	44. GALLERY.HTML
-	45. LOGIN.HTML
-	46. TYPOGRAPHY.HTML
-	47. CRUISE-DETAIL.HTML
-	48. LIST VIEW AND GRID VIEW SWITCH
-**********************************************************/
-
-
 /*********************************************************
 			1. GENERAL STYLES 
 **********************************************************/
@@ -83,6 +22,11 @@ a:active {
 }
 h5 {
 	font-size: 15px;
+}
+.navbar-brand{
+	width: 8rem;
+	height: 3rem;
+	padding: 0px;
 }
 .transition-effect {
 	transition: all 0.5s ease;
@@ -117,68 +61,17 @@ h5 {
 .site-wrapper {
 	margin: auto;
 }
-.cswitcher {
-	background: #fff;
-	position: fixed;
-	top: 40%;
-	z-index: 100;
-	box-shadow: 0px 0px 5px #e6e6e6;
-}
-#color-switcher {
-	width: 215px;
-	padding: 20px;
-}
-#color-switcher h6 {
-	font-weight: 800;
-	text-align: center;
-	margin: 5px 0px 15px;
-}
-#stoggle {
-	background: rgba(10, 49, 82, 0.8);
-    font-size: 25px;
-    padding: 3px 10px;
-    position: fixed;
-    top: 34%;
-	cursor: pointer;
-	color: #fff;
-	z-index: 100;
-}
-#color-switcher ul {
-	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
-}
-#color-switcher ul li {
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	margin: 5px;
+.social{
+	border:thin solid #337AB7;
+	background: #00FF00;
 	border-radius: 50%;
-	cursor: pointer;
+	margin-left: 1.5rem;
+	padding: 5px;
+	width:27px;
+	height:26px;
 }
-#color-switcher .red {
-	background: #f9676b;
-}
-#color-switcher .green {
-	background: #009f8b;
-}
-#color-switcher .light-green {
-	background: #9DC852;
-}
-#color-switcher .brown {
-	background: #a28753;
-}
-#color-switcher .orange {
-	background: #F7941D;
-}
-#color-switcher .yellow {
-	background: #f9bf3b;
-}
-#color-switcher .blue {
-	background: #2f7af8
-}
-#color-switcher .purple {
-	background: #9E7DD3;
+.social:hover{
+	background: yellow;
 }
 /*********************************************************
 			2. PRELOADER
@@ -282,7 +175,7 @@ h5 {
 	margin: 7px 0 0 15px;
 }
 .navbar-contact a i {
-	color: #f9676b;
+	color: #00FF00;
 	margin-right: 5px;
 }
 .navbar-contact .form-control {
@@ -298,7 +191,7 @@ h5 {
 	background: #0A3152 none repeat scroll 0 0;
     border: medium none;
     border-radius: 0;
-    color: #f9676b;
+    color: #00FF00;
     padding: 0 10px 0 0;
 	margin-right: 15px;
 }
@@ -307,7 +200,7 @@ h5 {
     -moz-transition-property: color;
     -o-transition-property: color;
     transition-property: color;
-	color: #f9676b;
+	color: #00FF00;
 }
 .transparent-menu-top {
 	background: rgba(10, 49, 82, 0.8);
@@ -356,7 +249,7 @@ h5 {
 }
 .nav-container .mega-menu .desc h4 {
 	margin-top: 0px;
-	color: #f9676b;
+	color: #00FF00;
 	font-weight: bold;
 	text-transform: capitalize;
 }
@@ -367,7 +260,7 @@ h5 {
 }
 .nav-container .mega-menu .desc a {
 	color: #fff !important;
-	background: #f9676b;
+	background: #00FF00;
 	border: 2px solid transparent;
 	padding: 8px 15px;
 	font-weight: bold;
@@ -377,8 +270,8 @@ h5 {
 	margin-left: 0px !important;
 }
 .nav-container .mega-menu .desc a:hover {
-	color: #f9676b;
-	border: 2px solid #f9676b;
+	color: #00FF00;
+	border: 2px solid #00FF00;
 	background: transparent;
 }
 .nav-container .mega-menu .links ul {
@@ -394,7 +287,7 @@ h5 {
 	margin-top: 0px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #f9676b;
+	color: #00FF00;
 }
 .nav-container .mega-menu .links li:before {
 	content: "\f105";
@@ -407,7 +300,7 @@ h5 {
 	color: #BEC4C8;
 }
 .mega-menu .links a:hover {
-	color: #f9676b;
+	color: #00FF00;
 }
 .mega-menu .links .img-div {
 	margin-top: 20px;
@@ -461,13 +354,13 @@ h5 {
 	-o-transition: all 0.3s ease;
 }
 .transparent-menu .navbar-nav > li > a:hover{
-	color: #f9676b;
+	color: #00FF00;
 }
 .transparent-menu .navbar-default .navbar-nav > .active > a, 
 .transparent-menu .navbar-default .navbar-nav > .active > a:focus, 
 .transparent-menu .navbar-default .navbar-nav > .active > a:hover {
 	background: transparent;
-	color: #f9676b;
+	color: #00FF00;
 }
 .transparent-menu .dropdown-menu > li > a {
 	background: transparent none repeat scroll 0 0;
@@ -485,7 +378,7 @@ h5 {
 	margin-left: -10px;
 }
 .transparent-menu .dropdown-menu > li > a:hover {
-	color: #f9676b !important;
+	color: #00FF00 !important;
 }
 .transparent-menu .dropdown-menu {
 	background: #07253F;
@@ -507,7 +400,10 @@ h5 {
 	color: #ffffff;
 }
 .transparent-menu  .navbar-default .navbar-toggle {
-	color: #ffffff;
+	color: #000000;
+}
+.navbar-toggle{
+	background-color: #00FF00;
 }
 .transparent-menu  .navbar-default .navbar-toggle .icon-bar {
 	background: #ffffff;
@@ -670,7 +566,7 @@ h5 {
 	margin-left: -10px;
 }
 .light-menu .dropdown-menu > li > a:hover {
-	color: #f9676b !important;
+	color: #00FF00 !important;
 }
 .light-menu .dropdown-menu {
 	background: #07253F;
@@ -737,7 +633,7 @@ h5 {
 	position: relative;
 }
 .search-section .nav-tabs .active:after {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     content: "";
     height: 20px;
     left: 40%;
@@ -766,14 +662,14 @@ h5 {
 }
 .search-section .nav-tabs > li > a:hover {
 	color: #ffffff;
-	background: #f9676b;
+	background: #00FF00;
 	border: 1px solid transparent;
 }
 .search-section .nav-tabs > li.active > a, 
 .search-section .nav-tabs > li.active > a:focus, 
 .search-section .nav-tabs > li.active > a:hover {
 	color: #ffffff;
-	background: #f9676b;
+	background: #00FF00;
 	border: 1px solid transparent;
 }
 .search-section .tab-content {
@@ -826,7 +722,7 @@ h5 {
 	display: block;
 	font-weight: 800;
 	text-transform: uppercase;
-	color: #f9676b;
+	color: #00FF00;
 }
 .search-section .search-col-padding {
 	padding-top: 15px;
@@ -919,7 +815,7 @@ h5 {
 	color: #00ADEF;
 }
 .search-button {
-	background: #f9676b;
+	background: #00FF00;
     border-radius: 0;
     margin-top: 10px;
     padding: 10px 30px;
@@ -940,7 +836,7 @@ h5 {
 }
 .owl-theme .owl-dots .owl-dot.active span, 
 .owl-theme .owl-dots .owl-dot:hover span {
-	background: #f9676b !important;
+	background: #00FF00 !important;
 }
 .offer-slider {
 	margin-top: 200px;
@@ -952,6 +848,7 @@ h5 {
 .offer-slider .item h3 {
 	font-weight: bold;
 	margin: 0px 0px 15px;
+	color: #fff;
 }
 .offer-slider .item a {
 	display: inline-block;
@@ -962,7 +859,7 @@ h5 {
 }
 .offer-slider .item a:hover {
 	color: #fff;
-	background: #f9676b;
+	background: #00FF00;
 	border: 2px solid transparent;
 }
 .offer-slider .owl-theme .owl-dots .owl-dot span {
@@ -999,7 +896,7 @@ h5 {
 }
 .bg-slider .carousel-caption a:hover {
 	color: #fff;
-	background: #f9676b;
+	background: #00FF00;
 	border: 2px solid transparent;
 }
 .bg-slider .carousel-indicators {
@@ -1063,7 +960,7 @@ h5 {
 	font-weight: bold;
 }
 .offer-box  a {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-size: 12px;
@@ -1089,7 +986,7 @@ h5 {
 	background: #fff;
 }
 .tran-search-box  .nav-tabs {
-	border-bottom: 4px solid #f9676b;
+	border-bottom: 4px solid #00FF00;
 }
 @media (max-width: 991px) {
 	.offer-slider,
@@ -1187,7 +1084,7 @@ h5 {
 	padding: 0 10px;
 }
 .rating-box i {
-	color: #F19C4F;
+	color: #00FF00;
 }
 .rating-box span {
 	margin: 0 5px;
@@ -1322,19 +1219,19 @@ h5 {
 .pricing-info span {
 	font-size: 16px;
 	font-weight: bold;
-	color: #f9676b;
+	color: #00FF00;
 }
 .pricing-info a {
 	color: #fff;
 	padding: 8px;
 	font-weight: bold;
-	background: #f9676b;
+	background: #00FF00;
 	display: inline-block;
 	border: 2px solid transparent;
 }
 .pricing-info a:hover {
-	border: 2px solid #f9676b;
-	color: #f9676b;
+	border: 2px solid #00FF00;
+	color: #00FF00;
 	background: transparent;
 }
 .tooltip-left:before {
@@ -1538,7 +1435,7 @@ h5 {
 }
 .td-product .overlay a {	
 	text-align: center;
-	background: #f9676b;
+	background: #00FF00;
 	color: #fff;
 	padding: 10px 20px;
 	font-weight: bold;
@@ -1557,8 +1454,8 @@ h5 {
 	transition: all 0.5s ease;
 }
 .td-product .overlay  a:hover {
-	border: 2px solid #f9676b;
-	color: #f9676b;
+	border: 2px solid #00FF00;
+	color: #00FF00;
 	background: transparent;
 }
 .td-product:hover .overlay {
@@ -1611,8 +1508,8 @@ h5 {
 	box-shadow: 0px 0px 5px #e6e6e6;
 }
 .room-grid-view:hover {
-	border: 1px solid #F19C4F;
-	box-shadow: 0px 0px 2px #F19C4F;
+	border: 1px solid #00FF00;
+	box-shadow: 0px 0px 2px #00FF00;
 }
 .room-grid-view  .room-info {
 	padding: 15px 15px 0px;
@@ -1622,7 +1519,7 @@ h5 {
 	font-weight: bold;
 }
 .room-grid-view  .room-info .room-title h5 span {
-	color: #F19C4F;
+	color: #00FF00;
 	margin: 5px 0px;
 }
 .room-grid-view  .room-info .room-title p {
@@ -1639,7 +1536,7 @@ h5 {
     width: 25px;
 }
 .room-grid-view  .room-info .hotel-rating .colored {
-	color: #F19C4F;
+	color: #00FF00;
 }
 .room-grid-view .hotel-rating span {
 	font-weight: normal;
@@ -1674,7 +1571,7 @@ h5 {
 	color: #ffffff;
 	display: block;
 	font-weight: bold;
-	background: #F2676B;
+	background: #00FF00;
 	text-transform: uppercase;
 }
 .room-grid-view:hover .room-info .room-book  a{
@@ -1691,7 +1588,7 @@ h5 {
     padding: 10px;
 }
 .subscribe-box button {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border-radius: 0;
     color: #fff;
     height: 50px;
@@ -1769,7 +1666,7 @@ h5 {
 	padding: 20px 15px;
 }
 .col-grid .bottom a {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #fff;
     display: block;
     font-weight: bold;
@@ -1785,7 +1682,7 @@ h5 {
 	margin-top: 0px;
 }
 .col-grid p i {
-	color: #F19C4F;
+	color: #00FF00;
 	margin: 1px;
 }
 .col-grid h3 {
@@ -1839,7 +1736,7 @@ h5 {
 	position: relative;
 }
 .hot-deals .nav-tabs .active:after {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     content: "";
     height: 20px;
     left: 40%;
@@ -1855,7 +1752,7 @@ h5 {
 .hot-deals .nav-tabs > li.active > a, 
 .hot-deals .nav-tabs > li.active > a:focus, 
 .hot-deals .nav-tabs > li.active > a:hover {
-	background: #f9676b;
+	background: #00FF00;
 	color: #fff;
 	border: none;
 	border-radius: 0;
@@ -1892,7 +1789,7 @@ h5 {
 	font-size: 14px;
 }
 .hot-deal-list .item a {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-size: 13px;
@@ -2117,7 +2014,7 @@ h5 {
     text-align: left;
 }
 .price-filter .ui-slider .ui-slider-range {
-    background: #F19C4F;
+    background: #00FF00;
     border: 0 none;
     display: block;
     font-size: 0.7em;
@@ -2150,7 +2047,7 @@ h5 {
 .price-filter input {
 	background: #0A3152;
 	border: none;
-	color: #F19C4F;
+	color: #00FF00;
 	font-weight: bold;
 	letter-spacing: 1px;
 	font-size: 18px;
@@ -2210,7 +2107,7 @@ h5 {
 	height: 40px;
 }
 .star-filter li  i{
-	color: #F19C4F;
+	color: #00FF00;
 }
 .sort-area .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
 	color: #07253F;
@@ -2307,8 +2204,8 @@ h5 {
 	display: none;
 }
 .hotel-list-view:hover {
-	border: 1px solid #F19C4F;
-	box-shadow: 0px 0px 5px #F19C4F;
+	border: 1px solid #00FF00;
+	box-shadow: 0px 0px 5px #00FF00;
 }
 .hotel-list-view  img{
 	max-width: 100%;
@@ -2325,7 +2222,7 @@ h5 {
 	font-size: 16px;
 }
 .hotel-list-view .hotel-header i {
-	color: #F19C4F;
+	color: #00FF00;
 	margin: 0px 2px;
 }
 .hotel-list-view .hotel-header p {
@@ -2379,7 +2276,7 @@ h5 {
 	font-weight: 700;
 }
 .hotel-list-view .room-book-box a {
-	background: #f2676b;
+	background: #00FF00;
 	color: #ffffff;
     font-weight: bold;
     padding: 5px 25px;
@@ -2476,7 +2373,7 @@ h5 {
 	margin-top: 30px;
 }
 .lowest-fare-slider .owl-theme .owl-nav [class*="owl-"] {
-	background: #F2676B;
+	background: #00FF00;
 	padding: 5px 3px;
 	margin: 0;
 	border-radius: 0;
@@ -2492,8 +2389,8 @@ h5 {
 	overflow: hidden;
 }
 .flight-list-view:hover {
-	border: 1px solid #F19C4F;
-	box-shadow: 0px 0px 5px #F19C4F;
+	border: 1px solid #00FF00;
+	box-shadow: 0px 0px 5px #00FF00;
 }
 .flight-list-view .airline-logo {
 	padding: 33px 0px;
@@ -2514,7 +2411,7 @@ h5 {
 }
 .flight-list-view .flight-desc h4 i {
 	margin-right: 5px;
-	color: #F2676B;
+	color: #00FF00;
 }
 .flight-list-view .flight-desc {
 	border-right: 1px solid #e6e6e6;
@@ -2532,7 +2429,7 @@ h5 {
 .flight-list-view .book a {
 	font-weight: bold;
 	color: #ffffff;
-	background: #F2676B;
+	background: #00FF00;
 	padding: 8px 20px;
 	display: inline-block;
 }
@@ -2576,7 +2473,7 @@ h5 {
 	margin: 20px 0px;
 	padding: 8px 20px;
 	color: #ffffff;
-	background: #F2676B;
+	background: #00FF00;
 	font-weight: bold;
 }
 .flight-details-book a:hover {
@@ -2630,7 +2527,7 @@ h5 {
 	padding: 0px !important;
 }
 .airline-rating .colored {
-	color: #F19C4F !important;
+	color: #00FF00 !important;
 }
 .airline-rating h6 {
 	font-size: 13px;
@@ -2693,8 +2590,8 @@ h5 {
 	box-shadow: 0px 0px 5px #e6e6e6;	
 }
 .flight-list-v2:hover {
-	border: 1px solid #F19C4F;
-	box-shadow: 0px 0px 5px #F19C4F;
+	border: 1px solid #00FF00;
+	box-shadow: 0px 0px 5px #00FF00;
 }
 .flight-list-v2 .airline {
 	padding: 20px 0px;
@@ -2803,7 +2700,7 @@ h5 {
 }
 .flight-list-footer .pull-right a {
 	color: #ffffff;
-	background: #F2676B;
+	background: #00FF00;
 	padding: 15px;
 	margin-left: 20px;
 	font-weight: bold;
@@ -2812,7 +2709,7 @@ h5 {
 	background: #00ADEF;
 }
 .flight-list-footer .refund {
-	color: #F2676B;
+	color: #00FF00;
 	border-left: 1px solid #0A3152;
 	border-right: 1px solid #0A3152;
 }
@@ -2875,8 +2772,8 @@ h5 {
 	overflow: hidden;
 }
 .holiday-grid-view:hover {
-	border: 1px solid #F19C4F;
-	box-shadow: 0px 0px 5px #F19C4F;
+	border: 1px solid #00FF00;
+	box-shadow: 0px 0px 5px #00FF00;
 }
 .holiday-grid-view .holiday-header-wrapper {
 	position: relative;
@@ -2896,7 +2793,7 @@ h5 {
 	top:0;
 	color: #ffffff;
 	padding: 10px;
-	background: #F2676B;
+	background: #00FF00;
 }
 .holiday-grid-view .holiday-header .holiday-title {
 	position: absolute;
@@ -2962,7 +2859,7 @@ h5 {
 	margin: 0px 5px;
 }
 .holiday-grid-view .holiday-footer .social i:hover {
-	color: #F2676B;
+	color: #00FF00;
 	cursor: pointer;
 }
 @media (max-width: 991px) {
@@ -3025,8 +2922,8 @@ h5 {
 	overflow: hidden;
 }
 .cruise-list-view:hover {
-	border: 1px solid #F19C4F;
-	box-shadow: 0px 0px 5px #F19C4F;
+	border: 1px solid #00FF00;
+	box-shadow: 0px 0px 5px #00FF00;
 }
 .cruise-list-view img {
 	max-width: 100%;
@@ -3086,7 +2983,7 @@ h5 {
 .cruise-list-view .price {
 	min-height: 125px;
 	padding: 18px 0px;
-	background: #F2676B;
+	background: #00FF00;
 	color: #ffffff;
 }
 .cruise-list-view .price h3 {
@@ -3130,7 +3027,7 @@ h5 {
 	background: url('../images/erideka/sunset.JPG');
 	padding: 170px 0px;
 	background-attachment: fixed;
-	background-size: contain;
+	background-size: cover;
 	color: #ffffff;
 	height:520px;
 }
@@ -3140,7 +3037,7 @@ h5 {
 	letter-spacing: 1px;
 }
 .page-title h5 i {
-	color: #F19C4F;
+	color: #00FF00;
 }
 .page-title p {
 	color: #fff;
@@ -3164,13 +3061,13 @@ h5 {
 .room-type h3 {
 	font-weight: bold;
 	margin-top: 10px;
-	color: #F2676B;
+	color: #00FF00;
 }
 .room-type .panel-collapse a {
 	color: #ffffff;
 	font-weight: bold;
 	padding: 10px 20px;
-	background: #F2676B;
+	background: #00FF00;
 	display: inline-block;
 	margin-top: 10px;
 }
@@ -3226,7 +3123,7 @@ h5 {
 	font-weight: bold;
 }
 .hotel-detail-sidebar  h4 i {
-	color: #F2676B;
+	color: #00FF00;
 	margin-right: 5px;
 }
 .hotel-detail-sidebar .sidebar-item  .sidebar-item-body {
@@ -3241,7 +3138,7 @@ h5 {
 	font-size: 18px;
 }
 .hotel-detail-sidebar .sidebar-item  .sidebar-item-body  h5 a {
-	color: #F2676B;
+	color: #00FF00;
 }
 .hotel-detail-sidebar .sidebar-item  .sidebar-item-body  h5 a:hover {
 	text-decoration: underline;
@@ -3254,7 +3151,7 @@ h5 {
 	background: #e6e6e6;
 }
 .hotel-detail-sidebar  .map h5 i {
-	color: #F2676B;
+	color: #00FF00;
 }
 .hotel-detail-sidebar .hotel-map {
 	border: none;
@@ -3287,10 +3184,10 @@ h5 {
     border-top: 1px solid #e6e6e6;
     margin-top: 10px;
     padding: 10px 0;
-	color: #F2676B;
+	color: #00FF00;
 }
 .guest-say h2 i {
-	color: #F2676B;
+	color: #00FF00;
 }
 .guest-say  span {
 	display: block;
@@ -3346,7 +3243,7 @@ h5 {
 	padding-top: 10px;
 }
 .similar-hotel-box span i {
-	color: #F19C4F;
+	color: #00FF00;
 	margin-left: 3px;
 	font-size: 14px;
 }
@@ -3362,7 +3259,7 @@ h5 {
 }
 .similar-hotel-box span {
 	margin-top: 5px;
-	color: #F2676B;
+	color: #00FF00;
 	font-weight: bold;
 }
 .room-complete-detail {
@@ -3407,15 +3304,15 @@ h5 {
 	margin-top: 0px;
 }
 .room-complete-detail .room-info-wrapper .book a {
-	border: 2px solid #f9676b;
-    color: #f9676b;
+	border: 2px solid #00FF00;
+    color: #00FF00;
     display: inline-block;
     font-weight: bold;
     margin-top: 15px;
     padding: 5px 30px;
 }
 .room-complete-detail .room-info-wrapper .book a:hover {
-	background: #f9676b;
+	background: #00FF00;
 	color: #fff;
 }
 .room-complete-detail .nav-tabs > li > a {
@@ -3440,14 +3337,14 @@ h5 {
     margin: 10px 0;
 }
 .ammenties-1 p i {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #fff;
     margin-right: 20px;
     padding: 15px;
 	position: relative;
 }
 .ammenties-1 p i:after {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     content: "";
     height: 15px;
     position: absolute;
@@ -3463,7 +3360,7 @@ h5 {
 	overflow: hidden;
 }
 .ammenties-2 span {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
 	display: block;
 	position: relative;
 	padding: 10px 0px;
@@ -3471,7 +3368,7 @@ h5 {
 	opacity: 0;
 } 
 .ammenties-2 span:after {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     content: "";
     height: 15px;
     left: 45%;
@@ -3515,10 +3412,10 @@ h5 {
 	margin: 10px 0px;
 }
 .ammenties-4 i {
-	color: #f2676b;
+	color: #00FF00;
 	margin-right: 10px;
 	padding: 10px;
-	border: 1px solid #f2676b;
+	border: 1px solid #00FF00;
 }
 .ammenties-5 {
 	overflow: hidden;
@@ -3527,7 +3424,7 @@ h5 {
 	margin-top: 25px;
 }
 .ammenties-5 i {
-	color: #f2676b;
+	color: #00FF00;
 	margin-right: 10px;
 	font-size: 20px;
 }
@@ -3539,11 +3436,11 @@ h5 {
     border-top: medium none !important;
 }
 .review-header td i {
-	color: #F19C4F;
+	color: #00FF00;
 }
 .review-header h2 {
 	margin-top: 40px;
-	color: #F19C4F;
+	color: #00FF00;
 	font-weight: bold;
 }
 .individual-review {
@@ -3558,7 +3455,7 @@ h5 {
 	line-height: 1.6;
 }
 .individual-review h4 i {
-	color: #F19C4F;
+	color: #00FF00;
 }
 .individual-review  img {
 	border-radius: 50%;
@@ -3571,10 +3468,10 @@ h5 {
 	margin-top: 8px;
 	display: block;
 	font-weight: bold;
-	color: #F2676B;
+	color: #00FF00;
 }
 .load-more a {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #ffffff;
     display: inline-block;
     margin-top: 20px;
@@ -3591,7 +3488,7 @@ h5 {
 	font-weight: normal;
 } 
 .submit-review {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border: medium none;
     border-radius: 0;
     color: #ffffff;
@@ -3649,7 +3546,7 @@ h5 {
 	position: relative;
 }
 .sidebar-booking-box  h3 {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #ffffff;
     padding: 22px 0;
 	font-weight: bold;
@@ -3658,7 +3555,7 @@ h5 {
 	margin: 0px;
 }
 .sidebar-booking-box  h3:after {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     content: "\f044";
@@ -3674,7 +3571,7 @@ h5 {
 	margin-bottom: 30px;
 }
 .sidebar-assistance-box h3 {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #ffffff;
     padding: 22px 0;
 	font-weight: bold;
@@ -3683,7 +3580,7 @@ h5 {
 	margin: 0px;
 }
 .sidebar-assistance-box  h3:after {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     content: "\f095";
@@ -3721,7 +3618,7 @@ h5 {
 	margin-top: 30px;
 	margin-bottom: 0px;
 	font-weight: bold;
-	color: #F2676B;
+	color: #00FF00;
 }
 .booking-box-body .room-price label {
 	margin-bottom: 0px;
@@ -3743,7 +3640,7 @@ h5 {
 	font-weight: bold;
 }
 .booking-box-body .grand-total  button:hover {
-	background: #f9676b;
+	background: #00FF00;
 }
 .booking-box-body .grand-total  h4 {
 	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -3767,7 +3664,7 @@ h5 {
 	height: 40px;
 }
 .booking-box-body .input-group-addon {
-	background-color: #f2676b;
+	background-color: #00FF00;
     border: medium none;
     border-radius: 0;
     color: #fff;
@@ -3782,7 +3679,7 @@ h5 {
 	margin-top: 0px;
 }
 .custom-head:after {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     content: "";
     height: 5px;
     left: 0;
@@ -3883,7 +3780,7 @@ h5 {
 }
 .package-complete-detail .tab-content .inc i {
 	margin-right: 5px;
-	color: #F2676B;
+	color: #00FF00;
 }
 .package-complete-detail .nav-tabs > li > a {
     background: #00adef none repeat scroll 0 0;
@@ -3922,7 +3819,7 @@ h5 {
 	padding: 15px;
 }
 .package-detail-sidebar .sidebar-item h4 i {
-	color: #F2676B;
+	color: #00FF00;
 	margin-right: 5px;
 }
 .package-detail-sidebar .package-summary-body {
@@ -3931,7 +3828,7 @@ h5 {
 .package-detail-sidebar .package-summary-body h5 {
 	position: relative;
 	font-size: 13px;
-	color: #F2676B;
+	color: #00FF00;
 	margin-bottom: 5px;
 }
 .package-detail-sidebar .package-summary-body h5 i {
@@ -3971,7 +3868,7 @@ h5 {
     z-index: 1;
 }
 .package-summary-footer .book {
-	background: #F2676B;
+	background: #00FF00;
 	padding: 32px 0 31px;
 }
 .package-summary-footer .book a{
@@ -3988,13 +3885,14 @@ h5 {
 }
 .package-detail-sidebar  .assitance-body h2 {
 	margin: 0px;
+	font-size: 14px;
 }
 .package-detail-sidebar  .assitance-body h5 {
 	line-height: 1.6;
 	margin-top: 0px;
 }
 .package-detail-sidebar  .assitance-body a {
-	color: #F2676B;
+	color: #00FF00;
 }
 .daily-schedule {
 	margin-top: 20px;
@@ -4007,7 +3905,7 @@ h5 {
 	font-weight: bold;
 }
 .daily-schedule .title span {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #ffffff;
     display: inline-block !important;
     font-size: 16px !important;
@@ -4020,7 +3918,7 @@ h5 {
 	margin-bottom: 0px;
 }
 .daily-schedule .title span:after {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     content: "";
     height: 20px;
     position: absolute;
@@ -4046,13 +3944,13 @@ h5 {
 }
 .activity i {
 	padding: 0px 5px 0px 0px !important;
-	color: #f2676b !important;
+	color: #00FF00 !important;
 }
 .inclusion-title {
 	background: #e6e6e6;
 }
 .inclusion-title span {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #ffffff;
     display: inline-block !important;
     font-size: 16px !important;
@@ -4073,7 +3971,7 @@ h5 {
 	font-size: 16px;
 }
 .inclusion-title span:after {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     content: "";
     height: 20px;
     position: absolute;
@@ -4095,7 +3993,7 @@ h5 {
 	margin-bottom: 20px;
 }
 .inclusion-body h5 i {
-	color: #F19C4F;
+	color: #00FF00;
 }
 .inclusion-body h5 {
 	margin-top: 0px;
@@ -4140,7 +4038,7 @@ h5 {
 	position: relative;
 }
 .booking-tab .nav-tabs .active:after {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     content: "";
     height: 5px;
     left: 43%;
@@ -4181,7 +4079,7 @@ h5 {
 	margin: 0px;
 }
 .booking-sidebar .sidebar-item h4 i {
-	color: #F2676B;
+	color: #00FF00;
 	margin-right: 10px;
 }
 .booking-sidebar .sidebar-body {
@@ -4224,7 +4122,7 @@ h5 {
 	overflow: hidden;
 }
 .booking-form a {
-	color: #F2676B;
+	color: #00FF00;
 	margin-top: 5px;
 	display: block;
 }
@@ -4232,7 +4130,7 @@ h5 {
 	margin-top: 15px;
 }
 .booking-form button {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border: medium none;
     color: #fff;
     display: block;
@@ -4294,7 +4192,7 @@ h5 {
 	height: 40px;
 }
 .passenger-detail-body button {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #ffffff;
     display: inline-block;
     font-size: 14px;
@@ -4351,7 +4249,7 @@ h5 {
 	margin-top: 20px;
 }
 .paypal-pay a {
-	 background: #f2676b none repeat scroll 0 0;
+	 background: #00FF00 none repeat scroll 0 0;
     color: #ffffff;
     display: inline-block;
     font-weight: bold;
@@ -4432,16 +4330,16 @@ h5 {
 	font-weight: bold;
 }
 .booking-summary-v2 h4 i {
-	color: #F19C4F;
+	color: #00FF00;
 }
 .booking-summary-v2 p i {
-	color: #F2676B;
+	color: #00FF00;
 }
 .booking-summary-v2 p span {
 	font-weight: bold;
 }
 .booking-summary-v2 a {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #ffffff;
     display: inline-block;
     font-weight: bold;
@@ -4460,7 +4358,7 @@ h5 {
 				26. thank-you.html CSS Start
 *********************************************************************************/
 .thank i {
-	background: #f19c4f none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border-radius: 50%;
     color: #ffffff;
     margin-right: 5px;
@@ -4488,10 +4386,10 @@ h5 {
 	color: #07253F;
 }
 .rec-box a:hover {
-	color: #F2676B;
+	color: #00FF00;
 }
 .rec-box td i {
-	color: #F2676B;
+	color: #00FF00;
 	margin-right: 5px;
 }
 /*********************************************************************************
@@ -4541,7 +4439,7 @@ h5 {
 .sidebar-subscribe button {
 	border: 0px;
 	color: #ffffff;
-	background: #F2676B;
+	background: #00FF00;
 	margin-top: 20px;
 	padding: 10px 20px;
 	font-weight: bold;
@@ -4588,7 +4486,7 @@ h5 {
 	overflow: hidden;
 }
 .post-body p i {
-	color: #f2676b;
+	color: #00FF00;
 	margin: 0px 5px;
 }
 .post-body p a {
@@ -4608,7 +4506,7 @@ h5 {
 	color: #00adef;
 }
 .post-footer .read-more a {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-weight: bold;
@@ -4625,7 +4523,7 @@ h5 {
 .blog-load-more {
 	display: inline-block;
 	color: #ffffff;
-	background: #f2676b;
+	background: #00FF00;
 	padding: 10px 40px;
 	font-weight: bold;
 	margin-bottom: 40px;
@@ -4647,7 +4545,7 @@ h5 {
     text-transform: uppercase;
 }
 .single-post-wrapper .blog-title p i {
-	color: #f2676b;
+	color: #00FF00;
 	margin: 0px 5px;	
 }
 .single-post-wrapper .blog-title p a {
@@ -4691,7 +4589,7 @@ h5 {
 	overflow: hidden;
 }
 .blog-links a {
-	color: #F2676B;
+	color: #00FF00;
 }
 .blog-links a:hover {
 	color: #00adef;
@@ -4751,7 +4649,7 @@ h5 {
 	margin-bottom: 0px;
 }
 .comment-wrapper .comment-body a {
-	color: #F2676B ;
+	color: #00FF00 ;
 }
 .comment-wrapper .comment-body i {
 	margin: 0px 5px;
@@ -4775,7 +4673,7 @@ h5 {
 .contact-address {
 	color: #ffffff;
 	padding: 60px 0px;
-	background: #00adef;
+	background: #00FF00;
 }
 .contact-address h2 {
 	font-weight: 800;
@@ -4792,7 +4690,7 @@ h5 {
 	color: #ffffff;
 }
 .contact-address a:hover {
-	color: #F2676B;
+	color: #00FF00;
 }
 .contact-address i {
 	font-size: 40px;
@@ -4849,7 +4747,7 @@ h5 {
 }
 .our-team {
 	padding: 60px 0px;
-	background: #F19C4F;
+	background: #00FF00;
 	color: #fff;
 }
 .our-team img {
@@ -4898,7 +4796,7 @@ h5 {
 	padding: 15px;
 }
 .service-right i {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     display: block;
@@ -4912,7 +4810,7 @@ h5 {
     z-index: 2;
 }
 .service-desc {
-	border: 1px solid #F2676B;
+	border: 1px solid #00FF00;
 	padding: 30px 15px 15px;
 	position: relative;
 	margin-top: 45px;
@@ -4953,7 +4851,7 @@ h5 {
 }
 .user-profile-tabs .nav-tabs > li a:hover {
 	border: none;
-	background: #F2676B;
+	background: #00FF00;
 }
 .user-profile-tabs .nav-tabs > li > a {
     background: #07253F;
@@ -4970,7 +4868,7 @@ h5 {
 }
 .user-profile-tabs .nav-tabs > li.active > a,
 .user-profile-tabs .nav-tabs > li.active > a:focus {
-	background: #F2676B;
+	background: #00FF00;
 	color: #fff;
 	border: none;
 }
@@ -4986,7 +4884,7 @@ h5 {
 }
 .user-profile .brief-info h5 i {
 	margin-right: 10px;
-	color: #F2676B;
+	color: #00FF00;
 }
 .user-profile .brief-info h3 {
 	margin-top: 0px;
@@ -5002,13 +4900,13 @@ h5 {
 	font-size: 13px;
 }
 .user-profile .brief-info-footer a:hover {
-	color: #F2676B;
+	color: #00FF00;
 }
 .user-profile .brief-info-footer a i {
 	margin-right: 5px;
 }
 .most-recent-booking .field-entry .fa-star {
-	color: #F19C4F;
+	color: #00FF00;
 	margin: 0px;
 }
 .most-recent-booking .field-entry {
@@ -5023,13 +4921,13 @@ h5 {
 	margin: 0px 5px;
 }
 .most-recent-booking .field-entry a {
-	color: #F2676B;
+	color: #00FF00;
 }
 .confirmed {
 	color: #009933;
 }
 .failed {
-	color: #F2676B;
+	color: #00FF00;
 }
 .most-recent-booking {
 	box-shadow: 0px 0px 5px #e6e6e6;
@@ -5061,7 +4959,7 @@ h5 {
 	margin-bottom: 20px;
 }
 .user-profile-offer .offer-left {
-	color: #F2676B;
+	color: #00FF00;
 }
 .user-profile-offer .offer-left p {
 	font-size: 24px;
@@ -5074,7 +4972,7 @@ h5 {
 	border-left: 1px solid #e6e6e6;
 }
 .user-profile-offer .offer-entry a {
-	color: #F2676B;
+	color: #00FF00;
 	font-weight: 600;
 }
 .user-notification {
@@ -5092,7 +4990,7 @@ h5 {
 }
 .notification-entry  p i {
 	color: #fff;
-	background: #F2676B;
+	background: #00FF00;
 	padding: 5px;
 	margin-right: 5px;
 }
@@ -5101,7 +4999,7 @@ h5 {
 	margin: 40px 0px;
 }
 .item-entry span {
-	background: #F2676B none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     display: inline-block;
     font-weight: bold;
     padding: 8px 20px; 
@@ -5121,7 +5019,7 @@ h5 {
 	font-weight: 600;
 }
 .item-content h4  i {
-	color: #F19C4F;
+	color: #00FF00;
 }
 .item-content p {
 	margin-bottom: 5px;
@@ -5132,7 +5030,7 @@ h5 {
 	margin-right: 5px;
 }
 .item-content a {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-weight: 600;
@@ -5151,8 +5049,8 @@ h5 {
 }
 .item-footer a {
 	display: inline-block;
-	color: #f2676b;
-	border: 2px solid #f2676b;
+	color: #00FF00;
+	border: 2px solid #00FF00;
 	background: transparent;
 	margin-left: 30px;
 }
@@ -5212,7 +5110,7 @@ h5 {
 	margin-top: 5px;
 }
 .user-personal-info a {
-	background: #F2676B;
+	background: #00FF00;
 	font-weight: bold;
 	color: #fff;
 	padding: 10px 20px;
@@ -5239,7 +5137,7 @@ h5 {
 	font-size: 20px;
 }
 .card-entry .pull-right a:hover {
-	color: #F2676B;
+	color: #00FF00;
 }
 .card-entry .card-type {
 	overflow: hidden;
@@ -5252,7 +5150,7 @@ h5 {
 }
 .primary-card span {
 	color: #fff;
-	background: #F2676B;
+	background: #00FF00;
 	display: block;
 	padding: 5px 10px;
 	margin-bottom: 10px;
@@ -5277,7 +5175,7 @@ h5 {
 	content: "";
 	width: 100px;
 	height: 3px;
-	background: #F2676B;
+	background: #00FF00;
 	position: absolute;
 	top: 115%;
 	left: 0;
@@ -5376,7 +5274,7 @@ h5 {
 	content: "";
 	width: 100px;
 	height: 5px;
-	background: #f9676b;
+	background: #00FF00;
 	position: absolute;
 	top: 126%;
 	left: 40%;
@@ -5408,7 +5306,7 @@ h5 {
 .centered-box .subscribe h3 {
 	font-weight: 600;
 	margin-bottom: 20px;
-	color: #f9676b;
+	color: #00FF00;
 }
 .centered-box .subscribe .form-control {
 	height: 50px;
@@ -5419,7 +5317,7 @@ h5 {
 .centered-box .subscribe	button {
 	height: 50px;
 	border: 0px;
-	background: #f9676b;
+	background: #00FF00;
 	color: #fff;
 	padding: 10px;
 	width: 100%;
@@ -5437,7 +5335,7 @@ h5 {
 .centered-box .social-media li {
 	display: inline-block;
 	margin: 0px 10px;
-	color: #f9676b;
+	color: #00FF00;
 	background: #fff;
 	height: 30px;
 	width: 30px;
@@ -5446,7 +5344,7 @@ h5 {
 .centered-box .social-media li a {
 	display: block;
 	padding: 5px;
-	color: #f9676b;
+	color: #00FF00;
 }
 .centered-box .social-media li a:hover {
 	color: #00adef;
@@ -5497,7 +5395,7 @@ h5 {
 *********************************************************************************/
 .not-found {
 	padding: 60px 0px;
-	background: #f9676b;
+	background: #00FF00;
 	color: #fff;
 }
 .not-found .desc p,
@@ -5553,14 +5451,14 @@ h5 {
 	-webkit-animation: loader 2s infinite;
 	animation: loader 2s infinite;
 	color: #fff;
-	background: #f9676b;
+	background: #00FF00;
 }
 .loading-animation span:nth-child(2) {
 	-webkit-animation: loader 2s infinite 0.5s;
 	animation: loader 2s infinite 0.5s;
 	opacity: 0;
 	color: #fff;
-	background: #F19C4F;
+	background: #00FF00;
 }
 .loading-animation span:nth-child(3) {
 	animation: loader 2s infinite 1s;
@@ -5652,7 +5550,7 @@ h5 {
 	line-height: 2;
 }
 .search-title p span {
-	color: #f9676b;
+	color: #00FF00;
 	font-weight: bold;
 }
 /*********************************************************************************
@@ -5670,13 +5568,13 @@ h5 {
 	font-weight: 800;
 	letter-spacing: 1px;
 	margin: 0px 0px 20px;
-	background: #f9676b;
+	background: #00FF00;
 	color: #fff;
 	position: relative;
 	padding: 20px 0px;
 }
 .room-check h4:after {
-	 background: #f9676b none repeat scroll 0 0;
+	 background: #00FF00 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     content: "\f046";
@@ -5692,14 +5590,14 @@ h5 {
     border-radius: 0;
     border-right: 1px solid #b6b6b6;
     border-top: 1px solid #b6b6b6;
-    color: #f9676b;
+    color: #00FF00;
 }
 .room-check label {
 	margin-bottom: 10px;
 }
 .room-check .ui-spinner-up i,
 .room-check .ui-spinner-down i {
-	color: #f9676b;
+	color: #00FF00;
 	z-index: 999;
 }
 .room-check .form-control {
@@ -5753,7 +5651,7 @@ h5 {
 }
 #home-hotel-intro .hotel-intro a {
 	color: #fff;
-	background: #f9676b;
+	background: #00FF00;
 	border: 2px solid transparent;
 	display: inline-block;
 	padding: 10px 20px;
@@ -5761,9 +5659,9 @@ h5 {
 	margin-top: 15px;
 }
 #home-hotel-intro .hotel-intro a:hover {
-	color: #f9676b;
+	color: #00FF00;
 	background: transparent;
-	border: 2px solid #f9676b;
+	border: 2px solid #00FF00;
 }
 #home-hotel-intro .hotel-intro a i {
 	margin-left: 10px;
@@ -5823,7 +5721,7 @@ h5 {
 	margin-top: 10px;
 }
 .post-title p {
-	color: #f9676b;
+	color: #00FF00;
 }
 #hotel-gallery #room-gallery {
 	margin: 0px !important;
@@ -5869,7 +5767,7 @@ h5 {
 }
 #hotel-gallery .section-title h2,
 #hotel-gallery .section-title h4 {
-	color: #f9676b;
+	color: #00FF00;
 }
 .hotel-subscribe-row {
 	padding: 60px 0px;
@@ -5890,7 +5788,7 @@ h5 {
 }
 .sm-footer h4 {
 	margin: 0px 0px 20px;
-	color: #f9676b;
+	color: #00FF00;
 	letter-spacing: 1px;
 	font-weight: bold;
 }
@@ -5903,7 +5801,7 @@ h5 {
 	padding: 0px
 }
 .sm-footer .contact-box i {
-	color: #f9676b;
+	color: #00FF00;
 	margin-right: 10px;
 }
 .sm-footer .footer-subscribe {
@@ -5918,7 +5816,7 @@ h5 {
 	border: none;
 }
 .sm-footer .footer-subscribe button {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border: medium none;
     color: #fff;
     height: 40px;
@@ -5926,8 +5824,8 @@ h5 {
     width: 100%;
 }
 .sm-footer .footer-about-box a {
-	border: 2px solid #f9676b;
-    color: #f9676b;
+	border: 2px solid #00FF00;
+    color: #00FF00;
     display: inline-block;
     font-weight: bold;
     padding: 5px 10px;
@@ -5945,7 +5843,7 @@ h5 {
     width: 30px;
 }
 .sm-footer .social-media i:hover {
-	background: #f9676b;
+	background: #00FF00;
 }
 .sm-footer-nav {
 	background: #0A3152;
@@ -5962,7 +5860,7 @@ h5 {
 	border-right: none;
 }
 .sm-footer-nav a:hover {
-	color: #f9676b;
+	color: #00FF00;
 }
 .sm-footer-nav .copyright {
 	color: #fff;
@@ -6039,7 +5937,7 @@ h5 {
 .hotel2-slider .carousel-caption a:hover {
 	border: 2px solid transparent;
 	color: #fff;
-	background: #f9676b;
+	background: #00FF00;
 }
 .room-check-horizontal {
 	padding: 60px 0px 80px;
@@ -6060,7 +5958,7 @@ h5 {
 .room-check-horizontal .input-group-addon {
 	color: #fff;
 	border-radius: 0px;
-	background: #f9676b;
+	background: #00FF00;
 	border: none;
 }
 .room-check-horizontal .custom-select-button {
@@ -6072,7 +5970,7 @@ h5 {
 }
 .room-check-horizontal .check-button button {
 	color: #fff;
-	background: #f9676b;
+	background: #00FF00;
 	font-weight: bold;
     height: 40px;
     width: 100%;
@@ -6080,8 +5978,8 @@ h5 {
 }
 .room-check-horizontal .check-button button:hover {
 	background: transparent none repeat scroll 0 0;
-    border: 2px solid #f9676b;
-    color: #f9676b;
+    border: 2px solid #00FF00;
+    color: #00FF00;
 }
 #hotel-intro img {
 	max-width: 100%;
@@ -6218,7 +6116,7 @@ h5 {
     padding: 5px 20px;
 }
 .tour-grid .tour-detail a:hover {
-	background: #f9676b;
+	background: #00FF00;
 	border: 2px solid transparent;
 }
 .tour-grid:hover .tour-detail {
@@ -6254,7 +6152,7 @@ h5 {
 }
 .tour-gallery .detail-link a:hover {
 	color: #fff;
-	background: #f9676b;
+	background: #00FF00;
 	border: 2px solid transparent;
 }
 #why-choose-us {
@@ -6302,7 +6200,7 @@ h5 {
 	line-height: 2;
 }
 .choose-us-item a {
-	background: #f9676b;
+	background: #00FF00;
     color: #fff;
     display: inline-block;
     font-weight: bold;
@@ -6312,8 +6210,8 @@ h5 {
 }
 .choose-us-item a:hover {
 	background: transparent;
-	color: #f9676b;
-	border: 2px solid #f9676b;
+	color: #00FF00;
+	border: 2px solid #00FF00;
 }
 #customer-testimonial {
 	padding: 60px 0px;
@@ -6360,7 +6258,7 @@ h5 {
 	display: block;
 }
 #review-customer .individual span i {
-	color: #F19C4F;
+	color: #00FF00;
 }
 #review-customer .individual h5 {
 	font-weight: bold;
@@ -6410,7 +6308,7 @@ h5 {
 	content: "";
 	width: 50%;
 	height: 2px;
-	background: #f9676b;
+	background: #00FF00;
 	position: absolute;
 	right: -20%;
 	top: 20%
@@ -6419,7 +6317,7 @@ h5 {
 	content: "";
 	width: 50%;
 	height: 2px;
-	background: #f9676b;
+	background: #00FF00;
 	position: absolute;
 	right: -20%;
 	top: 20%
@@ -6428,7 +6326,7 @@ h5 {
 	content: "";
 	width: 50%;
 	height: 2px;
-	background: #f9676b;
+	background: #00FF00;
 	position: absolute;
 	left: -20%;
 	top: 20%
@@ -6437,14 +6335,14 @@ h5 {
 	content: "";
 	width: 50%;
 	height: 2px;
-	background: #f9676b;
+	background: #00FF00;
 	position: absolute;
 	left: -20%;
 	top: 20%
 }
 .work-step i {
     border-radius: 50%;
-	background: #f9676b;
+	background: #00FF00;
     color: #fff;
     font-size: 34px;
     height: 80px;
@@ -6486,7 +6384,7 @@ h5 {
 }
 .car-detail i {
 	margin-right: 10px;
-	color: #f9676b;
+	color: #00FF00;
 }
 @media (max-width: 991px) {
 	.modify-car {
@@ -6530,7 +6428,7 @@ h5 {
 	border-left: 1px solid #e6e6e6;
 }
 .car-overview i {
-	color: #f9676b;
+	color: #00FF00;
     display: block;
     font-size: 24px;
     padding-bottom: 10px;
@@ -6571,15 +6469,15 @@ h5 {
 .reserve-car a {
 	color: #fff;
 	border: 2px solid transparent;
-	background: #f9676b;
+	background: #00FF00;
 	padding: 10px 40px;
 	display: inline-block;
 	margin-top: 40px;
 	font-weight: bold;
 }
 .reserve-car a:hover {
-	color: #f9676b;
-	border: 2px solid #f9676b;
+	color: #00FF00;
+	border: 2px solid #00FF00;
 	background: transparent;
 }
 .clear-top {
@@ -6627,7 +6525,7 @@ h5 {
 	letter-spacing: 1px;
 }
 .product-brief-info .detail h4 i {
-	color: #f9676b;
+	color: #00FF00;
 	margin-right: 5px;
 }
 .product-brief-info .detail .sidebar-item-body {
@@ -6649,7 +6547,7 @@ h5 {
 	content: "\f058";
 	font-family: "FontAwesome";
 	margin-right: 10px;
-	color: #f9676b;
+	color: #00FF00;
 }
 .product-brief-info .price-detail {
 	background: #07253F;
@@ -6672,8 +6570,8 @@ h5 {
 	font-weight: bold;
 }
 .product-brief-info .price-detail a:hover {
-	color: #f9676b;
-	border: 2px solid #f9676b;
+	color: #00FF00;
+	border: 2px solid #00FF00;
 }
 .product-brief-info .price-detail a i {
 	margin-right: 5px;
@@ -6699,7 +6597,7 @@ h5 {
 	height: 5px;
 	width: 50px;
 	position: absolute;
-	background: #F9676b;
+	background: #00FF00;
 	left: 40%;
 }
 .product-complete-info .nav-tabs > li > a {
@@ -6761,7 +6659,7 @@ h5 {
 .main-footer-sub button {
 	height: 40px;
 	border: none;
-	background: #f9676b;
+	background: #00FF00;
 	color: #fff;
 	width: 100%;
 	font-weight: bold;
@@ -6780,7 +6678,7 @@ h5 {
 	display: inline;
 }
 .main-footer-sub .social-media li a {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -6806,15 +6704,15 @@ h5 {
 .main-footer .about-box h3 {
 	font-weight: 800;
 	margin-top: 0px;
-	color: #f9676b;
+	color: #00FF00;
 	margin-bottom: 15px;
 	letter-spacing: 1px;
 }
 .main-footer .about-box a {
 	display: inline-block;
 	padding: 2px 15px;
-	color: #f9676b;
-	border: 2px solid #f9676b;
+	color: #00FF00;
+	border: 2px solid #00FF00;
 	font-weight: bold;
 }
 .main-footer .links {
@@ -6829,7 +6727,7 @@ h5 {
 .main-footer .links h4,
 .main-footer .contact-box h4, 
 .we-accept h4 {
-	color: #f9676b;
+	color: #00FF00;
 	margin-top: 0px;
 	text-transform: uppercase;
 	font-weight: 800;
@@ -6846,7 +6744,7 @@ h5 {
 }
 .main-footer .links ul li a:hover,
 .main-footer-nav ul li a:hover {
-	color: #f9676b;
+	color: #00FF00;
 }
 .main-footer .links ul li:before {
 	content: "\f105";
@@ -6860,13 +6758,9 @@ h5 {
 }
 .main-footer .contact-box p i {
     border-radius: 50%;
-    color: #f9676b;
+    color: #00FF00;
     display: inline-block;
-    height: 40px;
     margin-right: 10px;
-    margin-top: 10px;
-    padding: 10px 11px;
-    width: 40px;
 }
 .we-accept {
 	padding: 30px 0px 0px;
@@ -6936,7 +6830,7 @@ h5 {
 	opacity: 0;
 }
 .image-set .link a {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -6974,7 +6868,7 @@ h5 {
 .sign-up-form h4 {
 	font-weight: 800;
 	text-transform: uppercase;
-	color: #f9676b;
+	color: #00FF00;
 	margin-bottom: 20px;
 }
 .useful-links {
@@ -6986,7 +6880,7 @@ h5 {
 	color: #07253F;
 }
 .useful-links a:hover {
-	color: #f9676b;
+	color: #00FF00;
 }
 .login-form ,
 .sign-up-form {
@@ -7014,7 +6908,7 @@ h5 {
 }
 .login-form button,
 .sign-up-form button {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border: medium none;
     border-radius: 0;
     color: #fff;
@@ -7079,7 +6973,7 @@ h5 {
 	color: #07253F;
 }
 .element-tab .nav-tabs > li > a:hover {
-	color: #f9676b;
+	color: #00FF00;
 }
 .element-tab .nav > li > a:hover,
 .element-tab .nav > li > a:focus {
@@ -7091,12 +6985,12 @@ h5 {
 }
 .element-tab .tab-style1 .active,
 .element-tab .tab-style1 .active a {
-	background: #f9676b;
+	background: #00FF00;
 	color: #fff;
 	position: relative;
 }
 .element-tab .tab-style1 .active:after {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     content: "";
     height: 15px;
     left: 40%;
@@ -7120,10 +7014,10 @@ h5 {
 .element-tab .tab-style2 .active,
 .element-tab .tab-style2 .active a {
 	position: relative;
-	color: #f9676b;
+	color: #00FF00;
 }
 .element-tab .tab-style2 .active:after {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     content: "";
     height: 5px;
     left: 30%;
@@ -7141,7 +7035,7 @@ h5 {
 	margin: 10px 5px;
 }
 .cbtn {
-	background: #f9676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     border: medium none;
     border-radius: 0;
     color: #fff;
@@ -7173,9 +7067,9 @@ h5 {
 }
 .gbtn {
 	background: transparent;
-    border: 2px solid #f9676b;
+    border: 2px solid #00FF00;
     border-radius: 0;
-	color: #f9676b;
+	color: #00FF00;
     font-weight: bold;
 	transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -7184,7 +7078,7 @@ h5 {
 	-webkit-transition: all 0.3s ease;
 }
 .gbtn:hover {
-	background: #f9676b;
+	background: #00FF00;
 	color: #fff;
 }
 .element-accordian .panel-default > .panel-heading {
@@ -7210,7 +7104,7 @@ h5 {
 	padding: 20px 20px 0px;
 }
 #cabin .inclusion-body h5 a {
-	background: #f2676b none repeat scroll 0 0;
+	background: #00FF00 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     margin-left: 10px;
@@ -7241,8 +7135,8 @@ h5 {
 	display: block;
 }
 .product-grid-view:hover .wrapper {
-	border: 1px solid #F19C4F;
-	box-shadow: 0px 0px 5px #F19C4F;
+	border: 1px solid #00FF00;
+	box-shadow: 0px 0px 5px #00FF00;
 }
 .product-grid-view  img{
 	max-width: 100%;
@@ -7277,7 +7171,7 @@ h5 {
 	display: block;
 }
 .product-grid-view .hotel-header i {
-	color: #F19C4F;
+	color: #00FF00;
 	margin: 0px 2px;
 }
 .product-grid-view .hotel-header p {
@@ -7350,7 +7244,7 @@ h5 {
     width: 40%;
 }
 .product-grid-view .room-book-box .book a {
-	background: #f2676b;
+	background: #00FF00;
 	color: #ffffff;
     font-weight: bold;
     padding: 5px 15px;
@@ -7378,7 +7272,7 @@ h5 {
 	color: #00adef;
 }
 .view-switcher a:hover {
-	color: #f9676b;
+	color: #00FF00;
 }
 .product-grid-view .car-item .rating-box {
 	display: none;
